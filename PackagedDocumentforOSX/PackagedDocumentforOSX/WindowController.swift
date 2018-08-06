@@ -16,5 +16,5 @@ class WindowController: NSWindowController {
         self.shouldCascadeWindows = true
 
     }
-
+    
 }

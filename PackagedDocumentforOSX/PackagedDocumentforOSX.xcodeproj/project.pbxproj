@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A1122351210108D600313322 /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1122350210108D600313322 /* ImageView.swift */; };
+		A1122353210108ED00313322 /* AttachmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1122352210108ED00313322 /* AttachmentView.swift */; };
 		A1FEF7FB20FFED5F009DC56B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FEF7FA20FFED5F009DC56B /* AppDelegate.swift */; };
 		A1FEF7FD20FFED5F009DC56B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FEF7FC20FFED5F009DC56B /* ViewController.swift */; };
 		A1FEF7FF20FFED5F009DC56B /* MyTextPictDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FEF7FE20FFED5F009DC56B /* MyTextPictDocument.swift */; };
@@ -18,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A1122350210108D600313322 /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
+		A1122352210108ED00313322 /* AttachmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttachmentView.swift; sourceTree = "<group>"; };
 		A1FEF7F720FFED5F009DC56B /* PackagedDocumentforOSX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PackagedDocumentforOSX.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1FEF7FA20FFED5F009DC56B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A1FEF7FC20FFED5F009DC56B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -66,6 +70,8 @@
 				A1FEF81020FFF1D2009DC56B /* WindowController.swift */,
 				A1FEF7FC20FFED5F009DC56B /* ViewController.swift */,
 				A1FEF7FE20FFED5F009DC56B /* MyTextPictDocument.swift */,
+				A1122352210108ED00313322 /* AttachmentView.swift */,
+				A1122350210108D600313322 /* ImageView.swift */,
 				A1FEF80020FFED61009DC56B /* Assets.xcassets */,
 				A1FEF80220FFED61009DC56B /* Main.storyboard */,
 				A1FEF80520FFED61009DC56B /* Info.plist */,
@@ -152,10 +158,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1122351210108D600313322 /* ImageView.swift in Sources */,
 				A1FEF7FD20FFED5F009DC56B /* ViewController.swift in Sources */,
 				A1FEF81120FFF1D2009DC56B /* WindowController.swift in Sources */,
 				A1FEF7FB20FFED5F009DC56B /* AppDelegate.swift in Sources */,
 				A1FEF7FF20FFED5F009DC56B /* MyTextPictDocument.swift in Sources */,
+				A1122353210108ED00313322 /* AttachmentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
